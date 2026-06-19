@@ -425,3 +425,16 @@
 
   document.addEventListener('DOMContentLoaded', init);
 })();
+
+function unregisterServiceWorker() {
+  if ('serviceWorker' in navigator) {
+    // First unregister old broken SWs, then register fresh one
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      Promise.all(registrations.map(r => r.unregister())).then(() => {
+        navigator.serviceWorker.register('sw.js').catch(err => {
+          console.warn('SW registration failed:', err);
+        });
+      });
+    });
+  }
+}
