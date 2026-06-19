@@ -1,0 +1,2111 @@
+{
+  "meta": {
+    "appName": "VocabMaster - SSC & Railway Exam Prep",
+    "version": "1.0.0",
+    "totalWords": 150,
+    "lastUpdated": "2026-06-19",
+    "schemaNote": "See README.md -> 'Appending New Words' section before editing this file."
+  },
+  "words": [
+    {
+      "id": 1,
+      "word": "Abate",
+      "meaning": "To reduce in intensity, amount, or degree",
+      "trick": "Think 'A-BATE' = a bait. Throwing bait calms/reduces a fish's struggle.",
+      "synonym": "Diminish",
+      "antonym": "Intensify",
+      "examples": [
+        "The storm began to abate after midnight, letting ships return to port.",
+        "Her anger slowly abated once he explained the misunderstanding."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2019"
+    },
+    {
+      "id": 2,
+      "word": "Abdicate",
+      "meaning": "To formally give up a position, duty, or responsibility",
+      "trick": "AB(B) + DICTATE -> a dictator who 'AB'andons his throne is abdicating.",
+      "synonym": "Relinquish",
+      "antonym": "Assume",
+      "examples": [
+        "The king chose to abdicate the throne in favor of his daughter.",
+        "A manager who abdicates responsibility loses the team's trust."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 3,
+      "word": "Aberration",
+      "meaning": "A departure from what is normal, usual, or expected",
+      "trick": "ABERRATION sounds like 'a bear-ration' - a bear eating cake instead of fish is an aberration from normal bear behavior.",
+      "synonym": "Anomaly",
+      "antonym": "Norm",
+      "examples": [
+        "The sudden snowfall in May was a weather aberration.",
+        "His rude comment was an aberration; he is usually polite."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 4,
+      "word": "Abhor",
+      "meaning": "To regard with deep hatred or disgust",
+      "trick": "AB-HOR sounds like 'a bore' - we abhor things that bore or disgust us intensely.",
+      "synonym": "Detest",
+      "antonym": "Adore",
+      "examples": [
+        "Most people abhor cruelty towards animals.",
+        "She abhors lying, even when it's for a good cause."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 5,
+      "word": "Abject",
+      "meaning": "Existing in a humiliating or wretched condition",
+      "trick": "AB + JECT(reject) -> someone totally rejected by society lives in abject poverty.",
+      "synonym": "Wretched",
+      "antonym": "Dignified",
+      "examples": [
+        "The refugees were living in abject poverty after the flood.",
+        "His abject apology failed to repair the friendship."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 6,
+      "word": "Abolish",
+      "meaning": "To formally put an end to a system, practice, or institution",
+      "trick": "A-BOL-ISH sounds like 'demolish' - both mean to completely end/destroy something.",
+      "synonym": "Eliminate",
+      "antonym": "Establish",
+      "examples": [
+        "Slavery was abolished in most countries by the 19th century.",
+        "The new government plans to abolish outdated tax laws."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 7,
+      "word": "Abridge",
+      "meaning": "To shorten a piece of writing without losing the main content",
+      "trick": "A-BRIDGE -> a bridge connects two shores by the shortest path, just as an abridged book shortens the content.",
+      "synonym": "Condense",
+      "antonym": "Expand",
+      "examples": [
+        "The publisher released an abridged version of the 900-page novel.",
+        "Students often read abridged classics to save time."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 8,
+      "word": "Abrupt",
+      "meaning": "Sudden and unexpected; curt in manner",
+      "trick": "AB-RUPT sounds like 'erupt' - a volcano erupts abruptly without warning.",
+      "synonym": "Sudden",
+      "antonym": "Gradual",
+      "examples": [
+        "The meeting came to an abrupt end when the fire alarm rang.",
+        "His abrupt reply made her feel unwelcome."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 9,
+      "word": "Abscond",
+      "meaning": "To leave hurriedly and secretly, typically to avoid arrest or escape duty",
+      "trick": "AB(away) + SECOND -> leaving in a split second, secretly and quickly.",
+      "synonym": "Flee",
+      "antonym": "Stay",
+      "examples": [
+        "The cashier absconded with the company's funds.",
+        "Police are searching for the prisoner who absconded last night."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2021"
+    },
+    {
+      "id": 10,
+      "word": "Absolve",
+      "meaning": "To formally free someone from guilt, blame, or responsibility",
+      "trick": "AB-SOLVE -> to 'solve away' a person's guilt completely.",
+      "synonym": "Acquit",
+      "antonym": "Convict",
+      "examples": [
+        "The court absolved him of all charges due to lack of evidence.",
+        "Confessing his mistake did not absolve him of responsibility."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 11,
+      "word": "Abstain",
+      "meaning": "To deliberately refrain from doing something",
+      "trick": "AB-STAIN -> avoiding a 'stain' means staying away from something that could harm your record.",
+      "synonym": "Refrain",
+      "antonym": "Indulge",
+      "examples": [
+        "He decided to abstain from alcohol during training season.",
+        "Three members abstained from voting on the new policy."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 12,
+      "word": "Abundant",
+      "meaning": "Existing or available in large quantities; plentiful",
+      "trick": "A-BUND-ANT -> picture ants (ANT) gathering in huge bundles (BUND) of food - abundant supply.",
+      "synonym": "Plentiful",
+      "antonym": "Scarce",
+      "examples": [
+        "The region has abundant rainfall, which supports rich farming.",
+        "She has abundant experience in managing large teams."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2020"
+    },
+    {
+      "id": 13,
+      "word": "Accede",
+      "meaning": "To agree to a demand, request, or treaty",
+      "trick": "AC-CEDE sounds like 'exceed' - but think of it as 'agree and proceed' to a request.",
+      "synonym": "Consent",
+      "antonym": "Refuse",
+      "examples": [
+        "The government finally acceded to the workers' demands.",
+        "She acceded to his request for a short break."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 14,
+      "word": "Accelerate",
+      "meaning": "To increase speed or cause something to happen sooner",
+      "trick": "ACCELERATE contains 'CELE' like a celebrity car racing - speeding up.",
+      "synonym": "Hasten",
+      "antonym": "Decelerate",
+      "examples": [
+        "The car accelerated quickly to overtake the truck.",
+        "New technology has accelerated the pace of research."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 15,
+      "word": "Accentuate",
+      "meaning": "To make something more noticeable or prominent",
+      "trick": "ACCENT-UATE -> a strong 'accent' makes speech more noticeable, just as this word means to highlight.",
+      "synonym": "Highlight",
+      "antonym": "Diminish",
+      "examples": [
+        "The dim lighting accentuated the shadows on his face.",
+        "Her bold makeup accentuated her sharp features."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 16,
+      "word": "Acclaim",
+      "meaning": "Enthusiastic public praise or approval",
+      "trick": "AC-CLAIM -> people 'claim' loudly how good something is when they acclaim it.",
+      "synonym": "Praise",
+      "antonym": "Criticism",
+      "examples": [
+        "The film received critical acclaim at international festivals.",
+        "Her debut novel was acclaimed by readers worldwide."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 17,
+      "word": "Accord",
+      "meaning": "Formal agreement or harmony of opinion",
+      "trick": "AC-CORD -> like an electric 'cord' connecting two plugs in agreement/harmony.",
+      "synonym": "Agreement",
+      "antonym": "Disagreement",
+      "examples": [
+        "The two nations signed a peace accord after years of conflict.",
+        "The committee acted in accord with the new guidelines."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 18,
+      "word": "Accost",
+      "meaning": "To approach and address someone aggressively or boldly",
+      "trick": "AC-COST -> someone who blocks your way might 'cost' you your peace by accosting you.",
+      "synonym": "Confront",
+      "antonym": "Avoid",
+      "examples": [
+        "A stranger accosted her on the street asking for money.",
+        "Reporters accosted the actor outside the courtroom."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 19,
+      "word": "Acquiesce",
+      "meaning": "To accept something reluctantly but without protest",
+      "trick": "ACQUI-ESCE sounds like 'a quiet yes' - agreeing silently without argument.",
+      "synonym": "Comply",
+      "antonym": "Resist",
+      "examples": [
+        "He acquiesced to his boss's demands despite his doubts.",
+        "She acquiesced in the decision to avoid further conflict."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 20,
+      "word": "Acrimony",
+      "meaning": "Bitterness or harshness in speech, manner, or temper",
+      "trick": "ACRI-MONY sounds like 'a sour money' fight - people get bitter (acrimonious) over money disputes.",
+      "synonym": "Bitterness",
+      "antonym": "Goodwill",
+      "examples": [
+        "The divorce proceedings were marked by great acrimony.",
+        "Despite the acrimony between them, they finished the project."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2018"
+    },
+    {
+      "id": 21,
+      "word": "Acumen",
+      "meaning": "The ability to make good judgments and quick decisions",
+      "trick": "A-CUE-MEN -> sharp men who pick up the right 'cue' instantly show great acumen.",
+      "synonym": "Shrewdness",
+      "antonym": "Ineptitude",
+      "examples": [
+        "Her business acumen helped the startup grow rapidly.",
+        "He showed great political acumen during the crisis."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 22,
+      "word": "Adamant",
+      "meaning": "Refusing to be persuaded or change one's mind",
+      "trick": "ADAM-ANT -> imagine Adam the ant who refuses to leave his anthill, no matter what - completely firm.",
+      "synonym": "Resolute",
+      "antonym": "Flexible",
+      "examples": [
+        "She was adamant about not changing her travel plans.",
+        "Despite the criticism, he remained adamant that he was right."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2021"
+    },
+    {
+      "id": 23,
+      "word": "Adept",
+      "meaning": "Very skilled or proficient at something",
+      "trick": "A-DEPT -> someone who belongs in a special 'dept'(department) due to expert skill.",
+      "synonym": "Proficient",
+      "antonym": "Clumsy",
+      "examples": [
+        "She is adept at handling difficult customers.",
+        "He became adept at coding after years of practice."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 24,
+      "word": "Adhere",
+      "meaning": "To stick firmly to a surface or to follow a rule/belief strictly",
+      "trick": "AD-HERE -> glue makes things stick 'here' permanently - adhere means to stick or follow strictly.",
+      "synonym": "Comply",
+      "antonym": "Deviate",
+      "examples": [
+        "All employees must adhere to the company's safety rules.",
+        "The stamp did not adhere properly to the envelope."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 25,
+      "word": "Admonish",
+      "meaning": "To warn or reprimand someone firmly",
+      "trick": "AD-MONISH sounds like 'a monk-ish' scolding - strict but caring warning, like a monk's advice.",
+      "synonym": "Reprimand",
+      "antonym": "Praise",
+      "examples": [
+        "The teacher admonished the students for being late.",
+        "He was admonished by his coach for missing practice."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 26,
+      "word": "Adroit",
+      "meaning": "Clever and skillful, especially in using one's hands or mind",
+      "trick": "AD-ROIT sounds like 'a robot' - precise and skillful like a robot's movements.",
+      "synonym": "Skillful",
+      "antonym": "Awkward",
+      "examples": [
+        "The surgeon's adroit hands completed the operation flawlessly.",
+        "She gave an adroit answer that avoided controversy."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2019"
+    },
+    {
+      "id": 27,
+      "word": "Adulterate",
+      "meaning": "To make something impure by adding inferior or harmful substances",
+      "trick": "ADULT-ERATE -> dishonest 'adults' mixing fake substances to cheat buyers - adulterating goods.",
+      "synonym": "Contaminate",
+      "antonym": "Purify",
+      "examples": [
+        "The shopkeeper was fined for adulterating milk with water.",
+        "Adulterated fuel can severely damage a vehicle's engine."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 28,
+      "word": "Adversity",
+      "meaning": "A difficult or unpleasant situation; misfortune",
+      "trick": "AD-VERSE-ITY -> like a 'verse' (poem) of hardship that tests a person's strength.",
+      "synonym": "Hardship",
+      "antonym": "Prosperity",
+      "examples": [
+        "She remained calm and focused even in adversity.",
+        "True friends stand by you through adversity."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2019"
+    },
+    {
+      "id": 29,
+      "word": "Advocate",
+      "meaning": "To publicly support or recommend a cause or policy",
+      "trick": "AD-VOCATE sounds like 'a vocal-ate' - someone vocal in support of a cause.",
+      "synonym": "Champion",
+      "antonym": "Oppose",
+      "examples": [
+        "The doctor advocates a balanced diet for all patients.",
+        "She has long advocated for women's education in rural areas."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 30,
+      "word": "Aesthetic",
+      "meaning": "Concerned with beauty or the appreciation of beauty",
+      "trick": "AES-THETIC sounds like 'a static' painting - something pleasing to look at, related to beauty.",
+      "synonym": "Artistic",
+      "antonym": "Unsightly",
+      "examples": [
+        "The interior designer focused on the aesthetic appeal of the room.",
+        "The garden was redesigned for both aesthetic and practical purposes."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC MTS 2020"
+    },
+    {
+      "id": 31,
+      "word": "Affable",
+      "meaning": "Friendly, good-natured, and easy to talk to",
+      "trick": "AF-FABLE sounds like 'a fable' teller - someone warm and friendly who loves chatting and storytelling.",
+      "synonym": "Amiable",
+      "antonym": "Hostile",
+      "examples": [
+        "The new manager is affable and always greets staff warmly.",
+        "Despite his fame, the actor remained affable with fans."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 32,
+      "word": "Affinity",
+      "meaning": "A natural liking for or attraction to something/someone",
+      "trick": "AF-FINITY sounds like 'infinity' of love - an endless natural connection or liking.",
+      "synonym": "Fondness",
+      "antonym": "Aversion",
+      "examples": [
+        "She has always had an affinity for classical music.",
+        "The two scientists shared an affinity for solving complex puzzles."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 33,
+      "word": "Affluent",
+      "meaning": "Having a great deal of money or wealth",
+      "trick": "AF-FLUENT -> money 'flows fluently' for rich (affluent) people.",
+      "synonym": "Wealthy",
+      "antonym": "Impoverished",
+      "examples": [
+        "They grew up in an affluent neighborhood with large houses.",
+        "The affluent businessman donated heavily to local schools."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2018"
+    },
+    {
+      "id": 34,
+      "word": "Aggrandize",
+      "meaning": "To increase the power, status, or reputation of something/someone",
+      "trick": "AG-GRAND-IZE -> to make something 'grand'-er than it actually is.",
+      "synonym": "Exaggerate",
+      "antonym": "Belittle",
+      "examples": [
+        "He often aggrandizes his own achievements in interviews.",
+        "The ruler built monuments to aggrandize his legacy."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 35,
+      "word": "Aghast",
+      "meaning": "Filled with horror or shock",
+      "trick": "A-GHAST -> seeing a 'ghost' (ghast) suddenly leaves you horrified and shocked.",
+      "synonym": "Horrified",
+      "antonym": "Delighted",
+      "examples": [
+        "She was aghast at the amount of damage caused by the flood.",
+        "We stood aghast as the building collapsed before our eyes."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2019"
+    },
+    {
+      "id": 36,
+      "word": "Agile",
+      "meaning": "Able to move quickly and easily; sharp-minded",
+      "trick": "AGILE rhymes with 'fragile' but means the opposite - quick, flexible, and nimble.",
+      "synonym": "Nimble",
+      "antonym": "Clumsy",
+      "examples": [
+        "The gymnast's agile movements amazed the crowd.",
+        "A good manager needs an agile mind to solve problems quickly."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2021"
+    },
+    {
+      "id": 37,
+      "word": "Alacrity",
+      "meaning": "Brisk and cheerful readiness or eagerness",
+      "trick": "A-LACRITY sounds like 'a lottery' win - the eager, cheerful rush to claim it!",
+      "synonym": "Eagerness",
+      "antonym": "Reluctance",
+      "examples": [
+        "She accepted the new challenge with great alacrity.",
+        "The volunteers responded to the call for help with alacrity."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2020"
+    },
+    {
+      "id": 38,
+      "word": "Alienate",
+      "meaning": "To cause someone to feel isolated or estranged",
+      "trick": "ALIEN-ATE -> treating someone like an 'alien' makes them feel left out.",
+      "synonym": "Estrange",
+      "antonym": "Unite",
+      "examples": [
+        "His harsh comments alienated several close friends.",
+        "The new policy risks alienating long-term customers."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 39,
+      "word": "Allegation",
+      "meaning": "A claim or assertion that someone has done something wrong, often unproven",
+      "trick": "AL-LEGE-ATION -> a 'legal' claim that hasn't been proven in court yet.",
+      "synonym": "Accusation",
+      "antonym": "Proof",
+      "examples": [
+        "The company denied all allegations of fraud.",
+        "Police are investigating the allegations made against the officer."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 40,
+      "word": "Allure",
+      "meaning": "The quality of being powerfully and mysteriously attractive",
+      "trick": "AL-LURE -> a fishing 'lure' attracts fish irresistibly, just like allure attracts people.",
+      "synonym": "Charm",
+      "antonym": "Repulsion",
+      "examples": [
+        "The allure of city life draws many young people away from villages.",
+        "Her quiet confidence gave her a unique allure."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 41,
+      "word": "Aloof",
+      "meaning": "Distant in manner; not friendly or forthcoming",
+      "trick": "A-LOOF sounds like 'a roof' high above - staying distant and detached, like standing on a roof away from the crowd.",
+      "synonym": "Detached",
+      "antonym": "Sociable",
+      "examples": [
+        "He remained aloof during the party, barely speaking to anyone.",
+        "Her aloof attitude made it hard for colleagues to approach her."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2020"
+    },
+    {
+      "id": 42,
+      "word": "Altruistic",
+      "meaning": "Showing selfless concern for the well-being of others",
+      "trick": "ALTRU-ISTIC sounds like 'all true-istic' care - genuinely caring for others without selfish motives.",
+      "synonym": "Selfless",
+      "antonym": "Selfish",
+      "examples": [
+        "Her altruistic nature led her to donate her entire bonus to charity.",
+        "Doctors who volunteer in war zones show truly altruistic behavior."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 43,
+      "word": "Ambiguous",
+      "meaning": "Open to more than one interpretation; unclear in meaning",
+      "trick": "AMBI-GUOUS -> 'AMBI' means both/two, so an ambiguous statement can mean two different things.",
+      "synonym": "Vague",
+      "antonym": "Clear",
+      "examples": [
+        "His ambiguous answer left everyone confused about his decision.",
+        "The contract contained an ambiguous clause that led to a dispute."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2017"
+    },
+    {
+      "id": 44,
+      "word": "Ambivalent",
+      "meaning": "Having mixed feelings or contradictory ideas about something",
+      "trick": "AMBI-VALENT -> 'AMBI' (two) + valent (strength) -> two equally strong but opposite feelings.",
+      "synonym": "Uncertain",
+      "antonym": "Decisive",
+      "examples": [
+        "She felt ambivalent about accepting the job offer abroad.",
+        "Many voters remain ambivalent about the new policy."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2021"
+    },
+    {
+      "id": 45,
+      "word": "Ameliorate",
+      "meaning": "To make a bad situation better",
+      "trick": "A-MELI-ORATE sounds like 'a melody-rate' - a soothing melody that ameliorates (improves) one's mood.",
+      "synonym": "Improve",
+      "antonym": "Worsen",
+      "examples": [
+        "The new policies were designed to ameliorate poverty in rural areas.",
+        "Doctors gave medicine to ameliorate the patient's pain."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2022"
+    },
+    {
+      "id": 46,
+      "word": "Amiable",
+      "meaning": "Having a friendly and pleasant manner",
+      "trick": "AMI-ABLE -> 'AMI' (friend in French) + able -> able to make friends easily.",
+      "synonym": "Genial",
+      "antonym": "Unfriendly",
+      "examples": [
+        "Our amiable host made sure every guest felt welcome.",
+        "He has an amiable personality that puts people at ease."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 47,
+      "word": "Amicable",
+      "meaning": "Characterized by friendliness and absence of discord",
+      "trick": "AMIC-ABLE sounds close to AMIABLE but focuses on friendly relations/settlements, e.g. an amicable divorce.",
+      "synonym": "Cordial",
+      "antonym": "Hostile",
+      "examples": [
+        "The two companies reached an amicable settlement out of court.",
+        "Despite their differences, they maintained an amicable relationship."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2018"
+    },
+    {
+      "id": 48,
+      "word": "Animosity",
+      "meaning": "Strong hostility or hatred",
+      "trick": "ANIMO-SITY sounds like 'animal-city' fight - fierce hostility like wild animals fighting for territory.",
+      "synonym": "Hostility",
+      "antonym": "Friendliness",
+      "examples": [
+        "There has long been animosity between the two rival families.",
+        "The negotiations were difficult due to deep animosity on both sides."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2022"
+    },
+    {
+      "id": 49,
+      "word": "Anomaly",
+      "meaning": "Something that deviates from what is standard or expected",
+      "trick": "A-NO-MALY -> 'a no-normal-y' situation - something that doesn't fit the normal pattern.",
+      "synonym": "Irregularity",
+      "antonym": "Normality",
+      "examples": [
+        "Scientists detected an unusual anomaly in the data readings.",
+        "His calm reaction to the crisis was an anomaly among the panicked crowd."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2020"
+    },
+    {
+      "id": 50,
+      "word": "Antagonize",
+      "meaning": "To cause someone to become hostile",
+      "trick": "ANTAGON-IZE -> like a movie 'antagonist' (villain) who provokes the hero into conflict.",
+      "synonym": "Provoke",
+      "antonym": "Appease",
+      "examples": [
+        "He didn't mean to antagonize his coworkers with his blunt feedback.",
+        "The politician's speech antagonized several neighboring countries."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2020"
+    },
+    {
+      "id": 51,
+      "word": "Antipathy",
+      "meaning": "A deep-seated feeling of dislike",
+      "trick": "ANTI + PATHY(feeling) -> a feeling against someone",
+      "synonym": "Aversion",
+      "antonym": "Affinity",
+      "examples": [
+        "There was a clear antipathy between the two rival politicians.",
+        "He felt antipathy towards anyone who wasted food."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 52,
+      "word": "Apathy",
+      "meaning": "Lack of interest, enthusiasm, or concern",
+      "trick": "A-PATHY -> 'no path-y' direction, no interest in any path",
+      "synonym": "Indifference",
+      "antonym": "Enthusiasm",
+      "examples": [
+        "Voter apathy was high during the local elections.",
+        "His apathy towards studies worried his parents."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2018"
+    },
+    {
+      "id": 53,
+      "word": "Appease",
+      "meaning": "To pacify or placate someone by satisfying their demands",
+      "trick": "AP-PEASE sounds like 'a peace' offering to calm someone down",
+      "synonym": "Placate",
+      "antonym": "Provoke",
+      "examples": [
+        "The manager tried to appease the angry customer with a refund.",
+        "He bought chocolates to appease his sister."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 54,
+      "word": "Apprehensive",
+      "meaning": "Anxious or fearful about the future",
+      "trick": "AP-PRE-HEND -> to mentally 'hold' worry before it happens",
+      "synonym": "Anxious",
+      "antonym": "Confident",
+      "examples": [
+        "She felt apprehensive before her first job interview.",
+        "Many students are apprehensive about exam results."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 55,
+      "word": "Arbitrary",
+      "meaning": "Based on random choice rather than reason or system",
+      "trick": "ARBI-TRARY sounds like 'a bit-trary' decision - made without a fixed pattern",
+      "synonym": "Random",
+      "antonym": "Systematic",
+      "examples": [
+        "The judge's arbitrary decision surprised everyone in court.",
+        "Picking team members arbitrarily can lower morale."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2018"
+    },
+    {
+      "id": 56,
+      "word": "Arcane",
+      "meaning": "Understood by only a few; mysterious or secret",
+      "trick": "ARC-ANE sounds like an ancient 'arc' of secret knowledge",
+      "synonym": "Esoteric",
+      "antonym": "Familiar",
+      "examples": [
+        "The old manuscript was full of arcane symbols.",
+        "Tax law contains many arcane rules even experts struggle with."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 57,
+      "word": "Ardent",
+      "meaning": "Enthusiastic or passionate",
+      "trick": "AR-DENT sounds like 'ardent fire' burning with passion",
+      "synonym": "Passionate",
+      "antonym": "Indifferent",
+      "examples": [
+        "He is an ardent supporter of environmental causes.",
+        "Her ardent devotion to music led her to practice daily."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2019"
+    },
+    {
+      "id": 58,
+      "word": "Arduous",
+      "meaning": "Involving great effort and difficulty",
+      "trick": "AR-DUOUS sounds like 'hard-uous' - simply means very hard work",
+      "synonym": "Strenuous",
+      "antonym": "Effortless",
+      "examples": [
+        "Climbing the mountain was an arduous task for the beginners.",
+        "The arduous journey took them three days on foot."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 59,
+      "word": "Articulate",
+      "meaning": "Able to express thoughts clearly and effectively",
+      "trick": "AR-TICUL-ATE -> a 'particle'-by-particle clear explanation",
+      "synonym": "Eloquent",
+      "antonym": "Inarticulate",
+      "examples": [
+        "The candidate gave an articulate answer during the interview.",
+        "She is articulate enough to explain complex ideas simply."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2020"
+    },
+    {
+      "id": 60,
+      "word": "Ascetic",
+      "meaning": "Practicing strict self-denial as a measure of spiritual discipline",
+      "trick": "A-SCE-TIC sounds like 'a skeptic' of luxury - someone who avoids comfort",
+      "synonym": "Austere",
+      "antonym": "Indulgent",
+      "examples": [
+        "The monk lived an ascetic life with no material possessions.",
+        "His ascetic lifestyle inspired many of his followers."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 61,
+      "word": "Aspersion",
+      "meaning": "A false or misleading accusation meant to damage reputation",
+      "trick": "AS-PERSION sounds like 'a person' being wrongly blamed",
+      "synonym": "Slander",
+      "antonym": "Praise",
+      "examples": [
+        "He cast aspersions on his rival's honesty during the debate.",
+        "The newspaper was sued for casting aspersions on the company."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 62,
+      "word": "Assiduous",
+      "meaning": "Showing great care, attention, and diligence",
+      "trick": "AS-SID-UOUS sounds like 'a city-ous' worker, always busy and diligent",
+      "synonym": "Diligent",
+      "antonym": "Lazy",
+      "examples": [
+        "She was assiduous in completing every assignment on time.",
+        "His assiduous research led to an important discovery."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 63,
+      "word": "Astute",
+      "meaning": "Having sharp judgment; shrewd",
+      "trick": "A-STUTE sounds like 'a-cute' mind - clever and sharp",
+      "synonym": "Shrewd",
+      "antonym": "Naive",
+      "examples": [
+        "The astute investor sold his shares before the market crashed.",
+        "Her astute observations helped solve the case quickly."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2019"
+    },
+    {
+      "id": 64,
+      "word": "Audacious",
+      "meaning": "Showing a willingness to take bold risks",
+      "trick": "AUDA-CIOUS sounds like 'order-cious' - bold enough to order anything fearlessly",
+      "synonym": "Daring",
+      "antonym": "Timid",
+      "examples": [
+        "The audacious plan involved scaling the building at night.",
+        "Her audacious business idea attracted several investors."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 65,
+      "word": "Augment",
+      "meaning": "To make something greater by adding to it",
+      "trick": "AUG-MENT sounds like 'August-ment' growth - increasing in size over time",
+      "synonym": "Increase",
+      "antonym": "Diminish",
+      "examples": [
+        "The company hired more staff to augment its production capacity.",
+        "Reading widely can augment your vocabulary significantly."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2017"
+    },
+    {
+      "id": 66,
+      "word": "Auspicious",
+      "meaning": "Conducive to success; favorable",
+      "trick": "AUS-PICIOUS sounds like 'a special wish' coming true - a good sign",
+      "synonym": "Favorable",
+      "antonym": "Unfavorable",
+      "examples": [
+        "They chose an auspicious date for the wedding ceremony.",
+        "The team's first win was an auspicious start to the season."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 67,
+      "word": "Austere",
+      "meaning": "Severe or strict in manner; without luxury",
+      "trick": "AUS-TERE sounds like 'a stern tear' - a strict, plain lifestyle without comfort",
+      "synonym": "Stern",
+      "antonym": "Luxurious",
+      "examples": [
+        "He lived an austere life despite his enormous wealth.",
+        "The austere room had only a bed and a small table."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2017"
+    },
+    {
+      "id": 68,
+      "word": "Authentic",
+      "meaning": "Of undisputed origin; genuine",
+      "trick": "AUTH-ENTIC sounds like 'author-tic' - written by the real author, genuine",
+      "synonym": "Genuine",
+      "antonym": "Fake",
+      "examples": [
+        "The museum displayed an authentic painting by a famous artist.",
+        "She prefers authentic Italian food over fast-food imitations."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 69,
+      "word": "Avarice",
+      "meaning": "Extreme greed for wealth or material gain",
+      "trick": "AVAR-ICE sounds like 'a vault of ice'(cold heart) hoarding money - greed",
+      "synonym": "Greed",
+      "antonym": "Generosity",
+      "examples": [
+        "His avarice led him to cheat his own business partners.",
+        "Avarice is often considered one of the deadly vices."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2020"
+    },
+    {
+      "id": 70,
+      "word": "Aversion",
+      "meaning": "A strong dislike or disinclination",
+      "trick": "A-VERSION sounds like 'a version' you reject completely - strong dislike",
+      "synonym": "Dislike",
+      "antonym": "Liking",
+      "examples": [
+        "She has a strong aversion to crowded places.",
+        "His aversion to risk kept him from investing in stocks."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 71,
+      "word": "Avid",
+      "meaning": "Having or showing great enthusiasm for an activity or interest",
+      "trick": "AV-ID sounds like 'have-id' a huge appetite for something - very eager",
+      "synonym": "Enthusiastic",
+      "antonym": "Indifferent",
+      "examples": [
+        "He is an avid reader who finishes a book every week.",
+        "She remains an avid supporter of local sports teams."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 72,
+      "word": "Awry",
+      "meaning": "Away from the expected course; amiss",
+      "trick": "A-WRY sounds like 'a wry' twisted smile when plans go wrong",
+      "synonym": "Amiss",
+      "antonym": "Correct",
+      "examples": [
+        "Their plans went awry when it started raining heavily.",
+        "The project went awry due to poor communication."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 73,
+      "word": "Banal",
+      "meaning": "So lacking originality as to be obvious and boring",
+      "trick": "BAN-AL sounds like 'banned-all' creativity - dull and overused",
+      "synonym": "Trite",
+      "antonym": "Original",
+      "examples": [
+        "The movie's plot was banal and predictable from the start.",
+        "His banal jokes failed to amuse anyone at the party."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 74,
+      "word": "Belittle",
+      "meaning": "To make someone or something seem unimportant",
+      "trick": "BE-LITTLE -> literally to make 'little', i.e. minimize someone's worth",
+      "synonym": "Disparage",
+      "antonym": "Praise",
+      "examples": [
+        "He often belittles his employees in front of clients.",
+        "Don't belittle her efforts; she worked hard on this project."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2019"
+    },
+    {
+      "id": 75,
+      "word": "Benevolent",
+      "meaning": "Kind, generous, and well-meaning",
+      "trick": "BEN-EVOL-ENT sounds like 'good-evolved-entity' - someone kind by nature",
+      "synonym": "Charitable",
+      "antonym": "Malevolent",
+      "examples": [
+        "The benevolent donor funded the entire school renovation.",
+        "She is known for her benevolent attitude towards stray animals."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 76,
+      "word": "Bewilder",
+      "meaning": "To cause someone to become confused",
+      "trick": "BE-WILD-ER -> to make someone feel 'wild' and lost, confused",
+      "synonym": "Confound",
+      "antonym": "Clarify",
+      "examples": [
+        "The complicated map bewildered the tourists completely.",
+        "His sudden resignation bewildered the entire office."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2018"
+    },
+    {
+      "id": 77,
+      "word": "Bizarre",
+      "meaning": "Very strange or unusual",
+      "trick": "BIZ-ARRE sounds like 'business-are' weird - strikingly odd",
+      "synonym": "Strange",
+      "antonym": "Normal",
+      "examples": [
+        "They witnessed a bizarre sight on their late-night walk.",
+        "His bizarre behavior at the meeting confused everyone."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 78,
+      "word": "Bland",
+      "meaning": "Lacking strong features or characteristics; dull",
+      "trick": "BL-AND sounds like 'plain-and' nothing else - tasteless or dull",
+      "synonym": "Insipid",
+      "antonym": "Flavorful",
+      "examples": [
+        "The soup tasted bland without any spices.",
+        "His bland presentation failed to hold the audience's attention."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 79,
+      "word": "Blatant",
+      "meaning": "Done openly and unashamedly",
+      "trick": "BLA-TANT sounds like 'blast-ant' - obvious to the point of being loud",
+      "synonym": "Obvious",
+      "antonym": "Subtle",
+      "examples": [
+        "It was a blatant lie that everyone could see through.",
+        "The referee ignored the player's blatant foul."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 80,
+      "word": "Bleak",
+      "meaning": "Lacking hope; cold and depressing",
+      "trick": "BLE-AK sounds like 'bleak-ache' weather - cold, grey, and hopeless",
+      "synonym": "Dismal",
+      "antonym": "Cheerful",
+      "examples": [
+        "The future looked bleak for the struggling company.",
+        "The weather was bleak and grey all weekend."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2020"
+    },
+    {
+      "id": 81,
+      "word": "Bolster",
+      "meaning": "To support or strengthen something",
+      "trick": "BOL-STER sounds like a 'bolster' pillow that props you up - support",
+      "synonym": "Reinforce",
+      "antonym": "Weaken",
+      "examples": [
+        "The good results bolstered the team's confidence.",
+        "New evidence bolstered the prosecution's case."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 82,
+      "word": "Boorish",
+      "meaning": "Rude and unrefined in manner",
+      "trick": "BOOR-ISH sounds like a 'boar-ish' creature - crude and uncivilized behavior",
+      "synonym": "Crude",
+      "antonym": "Polite",
+      "examples": [
+        "His boorish comments embarrassed everyone at the dinner table.",
+        "Despite his wealth, his boorish manners shocked the guests."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 83,
+      "word": "Brazen",
+      "meaning": "Bold and without shame",
+      "trick": "BRA-ZEN sounds like 'brass-en' (hard metal) - shamelessly bold",
+      "synonym": "Audacious",
+      "antonym": "Shy",
+      "examples": [
+        "The thief made a brazen escape in broad daylight.",
+        "Her brazen attitude towards rules annoyed the teachers."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 84,
+      "word": "Brevity",
+      "meaning": "Concise and exact use of words; shortness",
+      "trick": "BREV-ITY sounds like 'brief-ity' - the quality of being brief",
+      "synonym": "Conciseness",
+      "antonym": "Verbosity",
+      "examples": [
+        "The speech was admired for its brevity and clarity.",
+        "Brevity is essential when writing a telegram or headline."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2021"
+    },
+    {
+      "id": 85,
+      "word": "Brusque",
+      "meaning": "Abrupt or blunt in manner or speech",
+      "trick": "BRUS-QUE sounds like 'brush-que' aside - dismissing someone quickly and rudely",
+      "synonym": "Curt",
+      "antonym": "Gentle",
+      "examples": [
+        "The brusque reply from the manager upset the new intern.",
+        "Her brusque tone made the meeting feel tense."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 86,
+      "word": "Burgeon",
+      "meaning": "To begin to grow or increase rapidly",
+      "trick": "BUR-GEON sounds like 'bud-geon' (a budding flower) - rapid growth",
+      "synonym": "Flourish",
+      "antonym": "Decline",
+      "examples": [
+        "The city's population began to burgeon after the new factory opened.",
+        "Her interest in painting burgeoned during the lockdown."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2021"
+    },
+    {
+      "id": 87,
+      "word": "Buttress",
+      "meaning": "To support, strengthen, or reinforce something",
+      "trick": "BUT-TRESS sounds like a stone 'buttress' wall supporting a building",
+      "synonym": "Support",
+      "antonym": "Undermine",
+      "examples": [
+        "New data buttressed the scientist's original theory.",
+        "Steel beams were added to buttress the old bridge."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 88,
+      "word": "Cajole",
+      "meaning": "To persuade someone through flattery or coaxing",
+      "trick": "CA-JOLE sounds like 'ca-joke' - using sweet talk/jokes to convince someone",
+      "synonym": "Coax",
+      "antonym": "Force",
+      "examples": [
+        "She cajoled her brother into doing the dishes.",
+        "The salesman tried to cajole customers into buying extra items."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 89,
+      "word": "Callous",
+      "meaning": "Showing insensitivity to others' feelings",
+      "trick": "CALL-OUS sounds like a hardened 'callus' on skin - emotionally hardened",
+      "synonym": "Heartless",
+      "antonym": "Compassionate",
+      "examples": [
+        "His callous remarks about the victims shocked the reporters.",
+        "The callous landlord evicted the family without warning."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2018"
+    },
+    {
+      "id": 90,
+      "word": "Candid",
+      "meaning": "Truthful and straightforward; frank",
+      "trick": "CAN-DID sounds like 'can did' say it honestly - open and direct",
+      "synonym": "Frank",
+      "antonym": "Evasive",
+      "examples": [
+        "She gave a candid interview about her struggles with fame.",
+        "I appreciate your candid feedback on my proposal."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2020"
+    },
+    {
+      "id": 91,
+      "word": "Capricious",
+      "meaning": "Given to sudden and unaccountable changes of mood or behavior",
+      "trick": "CAPRI-CIOUS sounds like a 'Capri' island breeze that changes direction suddenly",
+      "synonym": "Fickle",
+      "antonym": "Consistent",
+      "examples": [
+        "The capricious weather made it hard to plan the picnic.",
+        "Her capricious decisions confused the entire planning committee."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2016"
+    },
+    {
+      "id": 92,
+      "word": "Captivate",
+      "meaning": "To attract and hold the attention of someone",
+      "trick": "CAP-TIVATE sounds like 'capture' someone's interest completely",
+      "synonym": "Enthrall",
+      "antonym": "Bore",
+      "examples": [
+        "The magician's tricks captivated the children for hours.",
+        "Her storytelling captivated the entire audience."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 93,
+      "word": "Castigate",
+      "meaning": "To reprimand someone severely",
+      "trick": "CAS-TI-GATE sounds like 'cast-i-gate' someone out for punishment - scold harshly",
+      "synonym": "Reprimand",
+      "antonym": "Commend",
+      "examples": [
+        "The coach castigated the team for their poor performance.",
+        "The report castigated the company for ignoring safety rules."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 94,
+      "word": "Catalyst",
+      "meaning": "A person or thing that precipitates an event or change",
+      "trick": "CATA-LYST sounds like a chemistry 'catalyst' that speeds up a reaction",
+      "synonym": "Trigger",
+      "antonym": "Deterrent",
+      "examples": [
+        "The price hike acted as a catalyst for the public protests.",
+        "Her speech was the catalyst for major policy reforms."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 95,
+      "word": "Caustic",
+      "meaning": "Sarcastic in a hurtful way; corrosive",
+      "trick": "CAUS-TIC sounds like 'acidic' - sharp and biting remarks that 'burn'",
+      "synonym": "Scathing",
+      "antonym": "Mild",
+      "examples": [
+        "His caustic remarks left the new employee in tears.",
+        "The critic wrote a caustic review of the film."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 96,
+      "word": "Cease",
+      "meaning": "To stop or bring to an end",
+      "trick": "CE-ASE sounds like 'sees' the end - simply means to stop",
+      "synonym": "Halt",
+      "antonym": "Continue",
+      "examples": [
+        "The factory had to cease operations due to the strike.",
+        "Please cease all noise after 10 PM in the hostel."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 97,
+      "word": "Censure",
+      "meaning": "Strong disapproval or harsh criticism",
+      "trick": "CEN-SURE sounds like 'sense-sure' disapproval - an official, strong criticism",
+      "synonym": "Condemn",
+      "antonym": "Approve",
+      "examples": [
+        "The minister faced censure from opposition leaders.",
+        "The board issued a formal censure against the manager."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 98,
+      "word": "Charisma",
+      "meaning": "Compelling attractiveness or charm that inspires devotion",
+      "trick": "CHARIS-MA sounds like 'charm-mama' - natural charm that draws people in",
+      "synonym": "Charm",
+      "antonym": "Dullness",
+      "examples": [
+        "The young leader's charisma won over the entire crowd.",
+        "Despite limited experience, her charisma made her a great speaker."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 99,
+      "word": "Chronic",
+      "meaning": "Persisting for a long time or constantly recurring",
+      "trick": "CHRON-IC -> 'chronicle/chrono' (time) - lasting for a long time",
+      "synonym": "Persistent",
+      "antonym": "Temporary",
+      "examples": [
+        "He suffers from chronic back pain due to his desk job.",
+        "Chronic unemployment remains a major issue in the region."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 100,
+      "word": "Circumvent",
+      "meaning": "To find a way around an obstacle, often cleverly or illegally",
+      "trick": "CIRCUM-VENT sounds like going 'circular' around a problem to avoid it",
+      "synonym": "Bypass",
+      "antonym": "Confront",
+      "examples": [
+        "The company found a loophole to circumvent the new tax law.",
+        "He circumvented the long queue by booking tickets online."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 101,
+      "word": "Clandestine",
+      "meaning": "Kept secret, especially for an illicit purpose",
+      "trick": "CLAN-DESTINE sounds like a secret 'clan' destined to hide its plans",
+      "synonym": "Covert",
+      "antonym": "Open",
+      "examples": [
+        "They held a clandestine meeting to plan the protest.",
+        "The spy passed clandestine messages to his contact."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 102,
+      "word": "Coalesce",
+      "meaning": "To come together to form one mass or whole",
+      "trick": "CO-A-LESCE sounds like 'co-(together) + lace' weaving into one - merging",
+      "synonym": "Merge",
+      "antonym": "Separate",
+      "examples": [
+        "The two small startups coalesced into one large firm.",
+        "Different cultural influences coalesced to form the city's unique identity."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 103,
+      "word": "Coerce",
+      "meaning": "To persuade someone using force or threats",
+      "trick": "CO-ERCE sounds like 'force' with pressure - compelling against one's will",
+      "synonym": "Compel",
+      "antonym": "Persuade(gently)",
+      "examples": [
+        "The gang tried to coerce the shop owner into paying protection money.",
+        "No one can coerce her into signing the contract."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 104,
+      "word": "Cogent",
+      "meaning": "Clear, logical, and convincing",
+      "trick": "CO-GENT sounds like a 'co-gentleman's' argument - well-reasoned and convincing",
+      "synonym": "Persuasive",
+      "antonym": "Unconvincing",
+      "examples": [
+        "She presented a cogent argument for the new policy.",
+        "His cogent explanation cleared all our doubts."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 105,
+      "word": "Coherent",
+      "meaning": "Logical and consistent; easy to follow",
+      "trick": "CO-HERE-ENT sounds like ideas 'stick here' together logically",
+      "synonym": "Logical",
+      "antonym": "Incoherent",
+      "examples": [
+        "His coherent presentation impressed the entire panel.",
+        "The witness gave a coherent account of the incident."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2019"
+    },
+    {
+      "id": 106,
+      "word": "Commend",
+      "meaning": "To praise formally or officially",
+      "trick": "COM-MEND sounds like 'com-mend' (to repair/praise) someone's good work",
+      "synonym": "Praise",
+      "antonym": "Criticize",
+      "examples": [
+        "The principal commended the students for their charity work.",
+        "Her bravery was commended by the police department."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 107,
+      "word": "Compassion",
+      "meaning": "Sympathetic concern for the suffering of others",
+      "trick": "COM-PASSION sounds like sharing someone's 'passion'/pain together - deep sympathy",
+      "synonym": "Empathy",
+      "antonym": "Indifference",
+      "examples": [
+        "She showed great compassion towards the flood victims.",
+        "Compassion for animals led him to start an animal shelter."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2017"
+    },
+    {
+      "id": 108,
+      "word": "Complacent",
+      "meaning": "Showing excessive satisfaction with oneself; smug",
+      "trick": "COM-PLA-CENT sounds like being 'too placid' and content, ignoring risks",
+      "synonym": "Smug",
+      "antonym": "Discontented",
+      "examples": [
+        "The team became complacent after winning a few easy matches.",
+        "Don't get complacent just because you passed one test."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2021"
+    },
+    {
+      "id": 109,
+      "word": "Compliant",
+      "meaning": "Disposed to agree with others or obey rules",
+      "trick": "COM-PLY-ANT sounds like an ant that always 'complies' with instructions",
+      "synonym": "Obedient",
+      "antonym": "Rebellious",
+      "examples": [
+        "The new software is compliant with international safety standards.",
+        "He remained compliant with all the doctor's instructions."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 110,
+      "word": "Concede",
+      "meaning": "To admit something is true after first denying it; to surrender",
+      "trick": "CON-CEDE sounds like giving up the 'seed'(core) of an argument - to yield",
+      "synonym": "Admit",
+      "antonym": "Deny",
+      "examples": [
+        "She finally conceded that her plan had failed.",
+        "The team conceded defeat in the final minute of the match."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 111,
+      "word": "Conciliate",
+      "meaning": "To stop someone from being angry by acting kindly",
+      "trick": "CON-CIL-IATE sounds like calling a 'council' to make peace - to soothe anger",
+      "synonym": "Pacify",
+      "antonym": "Provoke",
+      "examples": [
+        "The manager tried to conciliate the two feuding employees.",
+        "Diplomats worked hard to conciliate the warring nations."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 112,
+      "word": "Concise",
+      "meaning": "Giving information clearly in a few words",
+      "trick": "CON-CISE sounds like 'con-cut'(scissors) - cutting unnecessary words, brief and clear",
+      "synonym": "Succinct",
+      "antonym": "Verbose",
+      "examples": [
+        "Please keep your email concise and to the point.",
+        "Her concise summary covered all the key points in one page."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2022"
+    },
+    {
+      "id": 113,
+      "word": "Condone",
+      "meaning": "To accept and allow behavior that is considered wrong",
+      "trick": "CON-DONE sounds like 'already done' and you let it pass - tolerate wrongdoing",
+      "synonym": "Overlook",
+      "antonym": "Condemn",
+      "examples": [
+        "The school does not condone any form of bullying.",
+        "His silence seemed to condone the unfair treatment of workers."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 114,
+      "word": "Confer",
+      "meaning": "To grant a title, honor, or right; to have discussions",
+      "trick": "CON-FER sounds like a 'conference' where people discuss and grant decisions",
+      "synonym": "Bestow",
+      "antonym": "Withhold",
+      "examples": [
+        "The university will confer degrees on 500 graduates this year.",
+        "The lawyers conferred privately before the hearing began."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 115,
+      "word": "Congenial",
+      "meaning": "Pleasant or agreeable, especially in creating a friendly atmosphere",
+      "trick": "CON-GENIAL sounds like 'co-genial' (friendly together) - pleasant company",
+      "synonym": "Amiable",
+      "antonym": "Unpleasant",
+      "examples": [
+        "The office has a congenial atmosphere where everyone helps each other.",
+        "We spent a congenial evening chatting over dinner."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 116,
+      "word": "Connoisseur",
+      "meaning": "An expert judge in matters of taste, especially in fine arts or food",
+      "trick": "CONNOIS-SEUR sounds like 'connect-sure' deep knowledge - a true expert/judge",
+      "synonym": "Expert",
+      "antonym": "Novice",
+      "examples": [
+        "He is a connoisseur of fine wines and rare cheeses.",
+        "As an art connoisseur, she could spot a forgery instantly."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 117,
+      "word": "Consensus",
+      "meaning": "General agreement among a group of people",
+      "trick": "CON-SENSUS sounds like a 'common sense' shared by everyone - group agreement",
+      "synonym": "Agreement",
+      "antonym": "Disagreement",
+      "examples": [
+        "After a long debate, the committee reached a consensus.",
+        "There is a growing consensus among scientists on this issue."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 118,
+      "word": "Conspicuous",
+      "meaning": "Standing out so as to be clearly visible",
+      "trick": "CON-SPIC-UOUS sounds like a bright 'spike' that's easy to spot - clearly noticeable",
+      "synonym": "Noticeable",
+      "antonym": "Inconspicuous",
+      "examples": [
+        "Her bright red coat made her conspicuous in the crowd.",
+        "The error was conspicuous to anyone who read the report carefully."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2017"
+    },
+    {
+      "id": 119,
+      "word": "Contemplate",
+      "meaning": "To think deeply about something",
+      "trick": "CON-TEM-PLATE sounds like staring at an empty 'plate', deep in thought",
+      "synonym": "Ponder",
+      "antonym": "Ignore",
+      "examples": [
+        "She sat by the window, contemplating her next career move.",
+        "He contemplated the consequences before making his decision."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 120,
+      "word": "Contempt",
+      "meaning": "The feeling that a person is beneath consideration; scorn",
+      "trick": "CON-TEMPT sounds like 'con-attempt' to insult - deep disrespect",
+      "synonym": "Disdain",
+      "antonym": "Respect",
+      "examples": [
+        "He looked at the cheat with utter contempt.",
+        "The judge held the lawyer in contempt of court."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2015"
+    },
+    {
+      "id": 121,
+      "word": "Contrite",
+      "meaning": "Feeling or showing remorse for a wrongdoing",
+      "trick": "CON-TRITE sounds like 'con-tried' to fix mistake - deeply sorry",
+      "synonym": "Remorseful",
+      "antonym": "Unrepentant",
+      "examples": [
+        "He gave a contrite apology after realizing his mistake.",
+        "Her contrite expression showed she truly regretted her words."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 122,
+      "word": "Conundrum",
+      "meaning": "A confusing and difficult problem or question",
+      "trick": "CON-UN-DRUM sounds like beating a 'drum' in confusion - a tricky puzzle",
+      "synonym": "Dilemma",
+      "antonym": "Solution",
+      "examples": [
+        "Choosing between the two job offers was a real conundrum.",
+        "The detective faced a conundrum with no clear suspects."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 123,
+      "word": "Convivial",
+      "meaning": "Friendly, lively, and full of energy; jovial",
+      "trick": "CON-VIV-IAL sounds like 'vivid' joyful gathering - cheerful and sociable",
+      "synonym": "Jovial",
+      "antonym": "Gloomy",
+      "examples": [
+        "The convivial atmosphere of the party made everyone relax.",
+        "Their convivial host kept the guests entertained all night."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 124,
+      "word": "Copious",
+      "meaning": "Abundant in supply or quantity",
+      "trick": "COP-IOUS sounds like a 'copy-ous' amount made many times over - plentiful",
+      "synonym": "Abundant",
+      "antonym": "Scant",
+      "examples": [
+        "She took copious notes during the long lecture.",
+        "The region receives copious rainfall during the monsoon."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 125,
+      "word": "Corroborate",
+      "meaning": "To confirm or give support to a statement or theory",
+      "trick": "COR-ROBOR-ATE sounds like a 'robot' double-checking facts - to confirm with evidence",
+      "synonym": "Confirm",
+      "antonym": "Contradict",
+      "examples": [
+        "New witnesses corroborated the victim's account of events.",
+        "The lab results corroborated the doctor's initial diagnosis."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2019"
+    },
+    {
+      "id": 126,
+      "word": "Credible",
+      "meaning": "Able to be believed; convincing",
+      "trick": "CRED-IBLE sounds like 'credit-able' - worthy of belief/trust",
+      "synonym": "Believable",
+      "antonym": "Implausible",
+      "examples": [
+        "The witness gave a credible account of the accident.",
+        "His excuse for being late was hardly credible."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2018"
+    },
+    {
+      "id": 127,
+      "word": "Cryptic",
+      "meaning": "Having a meaning that is mysterious or obscure",
+      "trick": "CRYPT-IC sounds like a 'crypt'(hidden tomb) of secret meaning - puzzling",
+      "synonym": "Enigmatic",
+      "antonym": "Clear",
+      "examples": [
+        "He left a cryptic note that nobody could understand.",
+        "Her cryptic smile gave no hint about her real thoughts."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 128,
+      "word": "Culminate",
+      "meaning": "To reach a climax or point of highest development",
+      "trick": "CUL-MIN-ATE sounds like reaching the 'summit'(peak) of a mountain - final highest point",
+      "synonym": "Climax",
+      "antonym": "Begin",
+      "examples": [
+        "Years of hard work culminated in her winning the gold medal.",
+        "The protests culminated in a nationwide strike."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 129,
+      "word": "Cumbersome",
+      "meaning": "Awkward to carry or use; burdensome",
+      "trick": "CUM-BER-SOME sounds like carrying a 'cucumber sack' that's heavy and awkward",
+      "synonym": "Unwieldy",
+      "antonym": "Convenient",
+      "examples": [
+        "The old printer was too cumbersome to move between offices.",
+        "Filling out the cumbersome form took almost an hour."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 130,
+      "word": "Cursory",
+      "meaning": "Hasty and therefore not thorough or detailed",
+      "trick": "CUR-SORY sounds like a 'curse' of rushing through work - hurried, careless",
+      "synonym": "Hasty",
+      "antonym": "Thorough",
+      "examples": [
+        "He gave the report only a cursory glance before signing it.",
+        "A cursory inspection missed the crack in the foundation."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CGL 2018"
+    },
+    {
+      "id": 131,
+      "word": "Daunting",
+      "meaning": "Seeming difficult to deal with in prospect; intimidating",
+      "trick": "DAUNT-ING sounds like 'don't-ing' try, it's too scary - intimidating challenge",
+      "synonym": "Intimidating",
+      "antonym": "Encouraging",
+      "examples": [
+        "Climbing Everest is a daunting challenge for any mountaineer.",
+        "The huge syllabus seemed daunting at first glance."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB Group D 2019"
+    },
+    {
+      "id": 132,
+      "word": "Debacle",
+      "meaning": "A sudden and ignominious failure; a fiasco",
+      "trick": "DE-BAC-LE sounds like things falling 'back' apart suddenly - total disaster",
+      "synonym": "Fiasco",
+      "antonym": "Triumph",
+      "examples": [
+        "The product launch turned into a complete debacle.",
+        "After the debacle, the coach resigned from his position."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 133,
+      "word": "Debilitate",
+      "meaning": "To make someone physically weak",
+      "trick": "DE-BIL-ITATE sounds like draining a 'bill'(energy) away - to weaken severely",
+      "synonym": "Weaken",
+      "antonym": "Strengthen",
+      "examples": [
+        "The long illness debilitated him for several months.",
+        "Constant stress can debilitate even the strongest mind."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 134,
+      "word": "Decadent",
+      "meaning": "Showing excessive indulgence in pleasure or luxury",
+      "trick": "DE-CA-DENT sounds like teeth(dent) rotting from too much 'cake' - excessive indulgence",
+      "synonym": "Indulgent",
+      "antonym": "Austere",
+      "examples": [
+        "They enjoyed a decadent dessert after the formal dinner.",
+        "The decadent lifestyle of the empire eventually led to its downfall."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 135,
+      "word": "Decimate",
+      "meaning": "To kill or destroy a large proportion of something",
+      "trick": "DECI-MATE sounds like 'deci'(ten) - originally killing one in ten, now widespread destruction",
+      "synonym": "Annihilate",
+      "antonym": "Restore",
+      "examples": [
+        "The disease decimated the local deer population.",
+        "Heavy bombing decimated the ancient city."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 136,
+      "word": "Decorum",
+      "meaning": "Behavior in keeping with good taste and propriety",
+      "trick": "DEC-OR-UM sounds like 'decorate' your manners properly - polite, proper conduct",
+      "synonym": "Propriety",
+      "antonym": "Impropriety",
+      "examples": [
+        "Guests are expected to maintain decorum during the ceremony.",
+        "He lost all sense of decorum after a few drinks."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 137,
+      "word": "Defame",
+      "meaning": "To damage the good reputation of someone",
+      "trick": "DE-FAME sounds like removing someone's 'fame' - to harm reputation",
+      "synonym": "Slander",
+      "antonym": "Honor",
+      "examples": [
+        "The newspaper was sued for defaming the actor.",
+        "She felt defamed by the false rumors spreading online."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 138,
+      "word": "Deference",
+      "meaning": "Humble submission and respect",
+      "trick": "DE-FER-ENCE sounds like 'deferring' your opinion out of respect for elders",
+      "synonym": "Respect",
+      "antonym": "Disrespect",
+      "examples": [
+        "Younger employees showed deference to the senior manager.",
+        "Out of deference to her parents, she chose a safer career."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 139,
+      "word": "Deft",
+      "meaning": "Neatly skillful and quick in movement",
+      "trick": "DEFT rhymes with 'theft' but means the opposite - skillful and precise hands",
+      "synonym": "Skillful",
+      "antonym": "Clumsy",
+      "examples": [
+        "The surgeon's deft hands completed the delicate operation.",
+        "With a few deft strokes, the artist finished the sketch."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 140,
+      "word": "Deleterious",
+      "meaning": "Causing harm or damage",
+      "trick": "DEL-ETER-IOUS sounds like 'delete-rious' health - harmful to something's condition",
+      "synonym": "Harmful",
+      "antonym": "Beneficial",
+      "examples": [
+        "Smoking has deleterious effects on the lungs.",
+        "Excessive screen time can be deleterious to children's eyesight."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 141,
+      "word": "Demeanor",
+      "meaning": "Outward behavior or appearance",
+      "trick": "DE-MEAN-OR sounds like how you 'mean' to appear to others - one's conduct/manner",
+      "synonym": "Conduct",
+      "antonym": "-",
+      "examples": [
+        "Her calm demeanor reassured the nervous patients.",
+        "Despite the pressure, he maintained a professional demeanor."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 142,
+      "word": "Denounce",
+      "meaning": "To publicly declare to be wrong or evil",
+      "trick": "DE-NOUNCE sounds like 'announce' against someone - to condemn openly",
+      "synonym": "Condemn",
+      "antonym": "Praise",
+      "examples": [
+        "The leader denounced the violence in his speech.",
+        "Activists denounced the company's unsafe labor practices."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 143,
+      "word": "Deplete",
+      "meaning": "To use up the supply or resources of something",
+      "trick": "DE-PLETE sounds like 'de-complete' resources - to reduce or exhaust",
+      "synonym": "Exhaust",
+      "antonym": "Replenish",
+      "examples": [
+        "Years of overfishing have depleted the ocean's fish stocks.",
+        "Long hours of work depleted his energy completely."
+      ],
+      "isRepeated": true,
+      "examTag": "SSC CHSL 2022"
+    },
+    {
+      "id": 144,
+      "word": "Deplore",
+      "meaning": "To feel or express strong disapproval of something",
+      "trick": "DE-PLORE sounds like 'de-explore' with regret - to strongly disapprove",
+      "synonym": "Condemn",
+      "antonym": "Approve",
+      "examples": [
+        "World leaders deplored the attack on civilians.",
+        "She deplored the lack of basic facilities in the village school."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 145,
+      "word": "Derelict",
+      "meaning": "In a state of disrepair due to neglect; abandoned",
+      "trick": "DER-E-LICT sounds like a 'relic' left to rot - abandoned and neglected",
+      "synonym": "Abandoned",
+      "antonym": "Maintained",
+      "examples": [
+        "The derelict building had been empty for over a decade.",
+        "Stray cats took shelter in the derelict warehouse."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 146,
+      "word": "Derive",
+      "meaning": "To obtain something from a specified source",
+      "trick": "DE-RIVE sounds like following a 'river'(rive) back to its source - to trace origin",
+      "synonym": "Obtain",
+      "antonym": "-",
+      "examples": [
+        "She derives great satisfaction from helping others.",
+        "The word 'biology' is derived from Greek roots."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 147,
+      "word": "Despise",
+      "meaning": "To feel contempt or a deep dislike for",
+      "trick": "DE-SPISE sounds like 'de-spy'(see through someone) and dislike them - intense dislike",
+      "synonym": "Loathe",
+      "antonym": "Admire",
+      "examples": [
+        "He despises dishonesty in any form.",
+        "She despised the way he treated his employees."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 148,
+      "word": "Despondent",
+      "meaning": "In low spirits from loss of hope or courage",
+      "trick": "DE-SPOND-ENT sounds like 'de-respond'-ent, no energy left to respond - deeply sad",
+      "synonym": "Dejected",
+      "antonym": "Hopeful",
+      "examples": [
+        "He became despondent after failing the exam for the second time.",
+        "The despondent team trudged off the field after their loss."
+      ],
+      "isRepeated": true,
+      "examTag": "RRB NTPC 2019"
+    },
+    {
+      "id": 149,
+      "word": "Deter",
+      "meaning": "To discourage someone from doing something through fear of consequences",
+      "trick": "DE-TER sounds like 'de-terror' - using fear to stop an action",
+      "synonym": "Discourage",
+      "antonym": "Encourage",
+      "examples": [
+        "Heavy fines are meant to deter people from littering.",
+        "The high price did not deter eager buyers from lining up."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    },
+    {
+      "id": 150,
+      "word": "Devious",
+      "meaning": "Showing a skillful use of underhand tactics to achieve goals",
+      "trick": "DE-VI-OUS sounds like taking a 'deviated' crooked path - sly and dishonest",
+      "synonym": "Cunning",
+      "antonym": "Honest",
+      "examples": [
+        "He used devious methods to win the contract.",
+        "Her devious plan to cheat in the exam was discovered."
+      ],
+      "isRepeated": false,
+      "examTag": ""
+    }
+  ]
+}

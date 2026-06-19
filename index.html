@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="VocabMaster — High-performance vocabulary trainer for SSC and Railway exam aspirants." />
+  <title>VocabMaster | SSC & Railway Vocab Prep</title>
+
+  <!-- Google Fonts: Poppins (headings/UI) + Inter (body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#FF5722" />
+  <link rel="icon" href="icon-192.png" />
+</head>
+<body>
+
+  <!-- ===================== TOP BAR ===================== -->
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__logo">📘</span>
+      <span class="topbar__title">VocabMaster</span>
+    </div>
+    <div class="topbar__streak" id="wordCounter" title="Total words loaded">
+      <span class="dot"></span>
+      <span id="wordCountText">Loading…</span>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN APP CONTAINER ===================== -->
+  <main class="app">
+
+    <!-- ---------- LOADING STATE ---------- -->
+    <div id="loadingScreen" class="state-screen">
+      <div class="spinner"></div>
+      <p>Loading your vocabulary deck…</p>
+    </div>
+
+    <!-- ---------- ERROR STATE ---------- -->
+    <div id="errorScreen" class="state-screen hidden">
+      <p class="state-screen__icon">⚠️</p>
+      <p>Couldn't load <code>data.json</code>.</p>
+      <p class="state-screen__sub">Make sure you're running this on a local server (not opening the file directly), since browsers block fetch() on the file:// protocol.</p>
+      <button class="btn btn--primary" id="retryBtn">Retry</button>
+    </div>
+
+    <!-- ===================== SECTION 1: PYQ MASTER ===================== -->
+    <section id="pyqSection" class="screen hidden">
+      <div class="screen__header">
+        <h1>PYQ Master</h1>
+        <p class="screen__subtitle">Words that have actually appeared in previous SSC / Railway papers.</p>
+      </div>
+      <div class="filter-chip-row">
+        <span class="chip chip--active" id="pyqCount">0 PYQ Words</span>
+      </div>
+      <div id="pyqList" class="word-list"></div>
+    </section>
+
+    <!-- ===================== SECTION 2: FLASHCARD VAULT ===================== -->
+    <section id="flashSection" class="screen hidden">
+      <div class="screen__header">
+        <h1>Flashcard Vault</h1>
+        <p class="screen__subtitle">Tap a card to flip it. Swipe through the full deck.</p>
+      </div>
+
+      <div class="flash-progress">
+        <span id="flashPosition">1 / 50</span>
+        <div class="flash-progress__bar">
+          <div class="flash-progress__fill" id="flashProgressFill"></div>
+        </div>
+      </div>
+
+      <div class="flashcard-stage">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard__inner" id="flashcardInner">
+            <!-- FRONT: word -->
+            <div class="flashcard__face flashcard__face--front">
+              <span class="flashcard__tag" id="flashTagFront"></span>
+              <h2 class="flashcard__word" id="flashWord">Word</h2>
+              <p class="flashcard__hint">Tap to reveal meaning</p>
+            </div>
+            <!-- BACK: meaning + trick -->
+            <div class="flashcard__face flashcard__face--back">
+              <h3 class="flashcard__meaning" id="flashMeaning">Meaning</h3>
+              <div class="flashcard__trick-box">
+                <span class="flashcard__trick-label">🧠 Memory Trick</span>
+                <p id="flashTrick">Trick</p>
+              </div>
+              <div class="flashcard__synant">
+                <span><strong>Synonym:</strong> <span id="flashSynonym">-</span></span>
+                <span><strong>Antonym:</strong> <span id="flashAntonym">-</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flash-controls">
+        <button class="btn btn--ghost" id="flashPrevBtn" aria-label="Previous card">⬅ Prev</button>
+        <button class="btn btn--primary" id="flashFlipBtn" aria-label="Flip card">🔄 Flip</button>
+        <button class="btn btn--ghost" id="flashNextBtn" aria-label="Next card">Next ➡</button>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION 3: QUIZ ARENA ===================== -->
+    <section id="quizSection" class="screen hidden">
+
+      <!-- Quiz intro / start screen -->
+      <div id="quizIntro" class="screen__header">
+        <h1>Quiz Arena</h1>
+        <p class="screen__subtitle">Test yourself with auto-generated MCQs from your full word bank.</p>
+        <button class="btn btn--primary btn--large" id="startQuizBtn">🚀 Start New Quiz</button>
+      </div>
+
+      <!-- Active quiz question -->
+      <div id="quizActive" class="hidden">
+        <div class="quiz-top">
+          <span id="quizProgress">Question 1 / 10</span>
+          <span id="quizScore">Score: 0</span>
+        </div>
+        <div class="quiz-progress__bar">
+          <div class="quiz-progress__fill" id="quizProgressFill"></div>
+        </div>
+
+        <div class="quiz-card">
+          <p class="quiz-card__eyebrow">Choose the correct meaning of:</p>
+          <h2 class="quiz-card__word" id="quizWord">Word</h2>
+
+          <div class="quiz-options" id="quizOptions"></div>
+
+          <div id="quizFeedback" class="quiz-feedback hidden">
+            <p id="quizFeedbackTitle" class="quiz-feedback__title"></p>
+            <div class="quiz-feedback__explanation">
+              <p><strong>Explanation:</strong> <span id="quizExplanation"></span></p>
+              <p class="quiz-feedback__examples-label"><strong>Real-life usage:</strong></p>
+              <ul id="quizExamples"></ul>
+            </div>
+            <button class="btn btn--primary btn--large" id="nextQuestionBtn">Next Question ➡</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quiz results -->
+      <div id="quizResult" class="hidden screen__header">
+        <h1 id="resultEmoji">🎉</h1>
+        <h2 id="resultScoreText">You scored 8 / 10</h2>
+        <p class="screen__subtitle" id="resultMessage">Great job! Keep practicing daily.</p>
+        <button class="btn btn--primary btn--large" id="restartQuizBtn">Try Another Quiz</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ===================== BOTTOM NAVIGATION ===================== -->
+  <nav class="bottom-nav" id="bottomNav">
+    <button class="nav-btn nav-btn--active" data-target="pyqSection">
+      <span class="nav-btn__icon">📌</span>
+      <span class="nav-btn__label">PYQ Master</span>
+    </button>
+    <button class="nav-btn" data-target="flashSection">
+      <span class="nav-btn__icon">🃏</span>
+      <span class="nav-btn__label">Flashcards</span>
+    </button>
+    <button class="nav-btn" data-target="quizSection">
+      <span class="nav-btn__icon">🎯</span>
+      <span class="nav-btn__label">Quiz Arena</span>
+    </button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
