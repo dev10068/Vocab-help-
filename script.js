@@ -1,21 +1,14 @@
 (() => {
   'use strict';
 
-  const state = {
-    allWords: [],
-    pyqWords: [],
-    flashIndex: 0,
-    quiz: { questions: [], currentIndex: 0, score: 0, answered: false }
-  };
-
-  // DOM elements ko yahan global mat rakho, inhe init() ke andar define karo
+  // 1. Data Store
+  let state = { allWords: [], pyqWords: [] };
   let dom = {};
 
+  // 2. Data Loader
   async function loadVocabData() {
     try {
       dom.loadingScreen.classList.remove('hidden');
-      dom.errorScreen.classList.add('hidden');
-      
       const response = await fetch('data.json', { cache: 'no-cache' });
       const data = await response.json();
       
@@ -25,34 +18,37 @@
       dom.wordCountText.textContent = `Total: ${state.allWords.length} words`;
       dom.loadingScreen.classList.add('hidden');
       
+      // Data mil gaya, ab nav setup karo
       initNavigation();
     } catch (err) {
-      console.error("Data load error:", err);
       dom.loadingScreen.classList.add('hidden');
       dom.errorScreen.classList.remove('hidden');
+      console.error("Fetch Error:", err);
     }
   }
 
+  // 3. Navigation
   function initNavigation() {
     dom.navButtons.forEach(btn => {
       btn.addEventListener('click', () => {
         const target = btn.getAttribute('data-target');
         
-        Object.values(dom.screens).forEach(s => {
-          if(s) s.classList.add('hidden');
-        });
+        // Hide all screens
+        Object.values(dom.screens).forEach(s => s && s.classList.add('hidden'));
         
-        const activeScreen = document.getElementById(target);
-        if(activeScreen) activeScreen.classList.remove('hidden');
+        // Show target
+        const active = document.getElementById(target);
+        if(active) active.classList.remove('hidden');
         
+        // Active class
         dom.navButtons.forEach(b => b.classList.remove('nav-btn--active'));
         btn.classList.add('nav-btn--active');
       });
     });
   }
 
-  function init() {
-    // Ab jab DOM content load ho gaya hai, tab elements dhoondho
+  // 4. Initialize everything after HTML loads
+  document.addEventListener('DOMContentLoaded', () => {
     dom = {
       loadingScreen: document.getElementById('loadingScreen'),
       errorScreen: document.getElementById('errorScreen'),
@@ -68,7 +64,5 @@
 
     if(dom.retryBtn) dom.retryBtn.addEventListener('click', loadVocabData);
     loadVocabData();
-  }
-
-  document.addEventListener('DOMContentLoaded', init);
+  });
 })();
