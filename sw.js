@@ -1,6 +1,6 @@
-const CACHE_NAME = 'vocabmaster-cache-v2';
+const CACHE_NAME = 'vocabmaster-v1';
 
-const ASSETS_TO_CACHE = [
+const ASSETS = [
   '/Vocab-help-/',
   '/Vocab-help-/index.html',
   '/Vocab-help-/style.css',
@@ -8,37 +8,45 @@ const ASSETS_TO_CACHE = [
   '/Vocab-help-/data.json',
   '/Vocab-help-/manifest.json',
   '/Vocab-help-/icon-192.png',
-  '/Vocab-help-/icon-512.png'
+  '/Vocab-help-/icon-512.png',
+  '/Vocab-help-/icon-512-maskable.png',
+  '/Vocab-help-/screen-mobile.png',
+  '/Vocab-help-/screen-wide.png'
 ];
 
-self.addEventListener('install', (event) => {
+// ── Install: cache all assets ──────────────────────
+self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS_TO_CACHE))
+    caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS))
   );
   self.skipWaiting();
 });
 
-self.addEventListener('activate', (event) => {
+// ── Activate: delete old caches ───────────────────
+self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then((keys) =>
+    caches.keys().then(keys =>
       Promise.all(
-        keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
+        keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
       )
     )
   );
   self.clients.claim();
 });
 
-self.addEventListener('fetch', (event) => {
+// ── Fetch: cache-first strategy ───────────────────
+self.addEventListener('fetch', event => {
   event.respondWith(
-    fetch(event.request)
-      .then((networkResponse) => {
-        if (networkResponse && networkResponse.status === 200) {
-          const clone = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+    caches.match(event.request).then(cached => {
+      if (cached) return cached;
+      return fetch(event.request).then(response => {
+        if (!response || response.status !== 200 || response.type !== 'basic') {
+          return response;
         }
-        return networkResponse;
-      })
-      .catch(() => caches.match(event.request))
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        return response;
+      }).catch(() => caches.match('/Vocab-help-/index.html'));
+    })
   );
 });
