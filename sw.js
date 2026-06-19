@@ -1,20 +1,16 @@
-/* =========================================================
-   VocabMaster — sw.js (Service Worker v2)
-   ========================================================= */
-
 const CACHE_NAME = 'vocabmaster-cache-v2';
 
 const ASSETS_TO_CACHE = [
-  './',
-  './index.html',
-  './style.css',
-  './script.js',
-  './data.json',
-  './manifest.json',
-  './icon-192.png'
+  '/Vocab-help-/',
+  '/Vocab-help-/index.html',
+  '/Vocab-help-/style.css',
+  '/Vocab-help-/script.js',
+  '/Vocab-help-/data.json',
+  '/Vocab-help-/manifest.json',
+  '/Vocab-help-/icon-192.png',
+  '/Vocab-help-/icon-512.png'
 ];
 
-// 1. Install: cache everything
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS_TO_CACHE))
@@ -22,7 +18,6 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
-// 2. Activate: delete OLD caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
@@ -34,7 +29,6 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// 3. Fetch: Network first, fallback to cache
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     fetch(event.request)
