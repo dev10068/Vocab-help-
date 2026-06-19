@@ -2007,9 +2007,5 @@
   {"id": 1998, "word": "Hesitate", "meaning": "Pause", "trick": "Wait.", "synonym": "Pause", "antonym": "Rush", "examples": ["Don't hesitate.", "Hesitated to ask."], "isRepeated": true, "examTag": "SSC CGL 2019"},
   {"id": 1999, "word": "Hew", "meaning": "Cut", "trick": "Chop.", "synonym": "Chop", "antonym": "None", "examples": ["Hew the wood.", "Hewn from stone."], "isRepeated": false, "examTag": ""},
   {"id": 2000, "word": "Zenith", "meaning": "Peak", "trick": "Top point.", "synonym": "Peak", "antonym": "Bottom", "examples": ["Zenith of career.", "Reached the zenith."], "isRepeated": true, "examTag": "SSC CGL 2020"}
-
-      "isRepeated": false,
-      "examTag": ""
-    }
   ]
 }
