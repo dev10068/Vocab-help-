@@ -3,9 +3,10 @@
   "name": "VocabMaster - SSC & Railway Vocab Prep",
   "short_name": "VocabMaster",
   "description": "High-performance vocabulary trainer for SSC and Railway exam aspirants.",
-  "start_url": "https://dev10068.github.io/Vocab-help-/",
-  "scope": "https://dev10068.github.io/Vocab-help-/",
+  "start_url": "/Vocab-help-/",
+  "scope": "/Vocab-help-/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#FAFAFA",
   "theme_color": "#FF5722",
   "orientation": "portrait",
@@ -13,18 +14,57 @@
   "dir": "ltr",
   "categories": ["education", "utilities"],
   "prefer_related_applications": false,
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
   "icons": [
     {
-      "src": "https://dev10068.github.io/Vocab-help-/icon-192.png",
+      "src": "/Vocab-help-/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://dev10068.github.io/Vocab-help-/icon-512.png",
+      "src": "/Vocab-help-/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Vocab-help-/icons/icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/Vocab-help-/screenshots/screen-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "VocabMaster Flashcard View"
+    },
+    {
+      "src": "/Vocab-help-/screenshots/screen-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "VocabMaster Quiz Arena"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Flashcards",
+      "short_name": "Cards",
+      "description": "Jump to Flashcard Vault",
+      "url": "/Vocab-help-/#flashcards",
+      "icons": [{ "src": "/Vocab-help-/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Quiz Arena",
+      "short_name": "Quiz",
+      "description": "Start a quick quiz",
+      "url": "/Vocab-help-/#quiz",
+      "icons": [{ "src": "/Vocab-help-/icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
