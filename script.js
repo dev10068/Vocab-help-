@@ -1,57 +1,60 @@
-(() => {
-  'use strict';
-  
-  let state = { allWords: [], pyqWords: [] };
-  let dom = {};
+/* =========================================================
+   VocabMaster — sw.js (Service Worker)
+   Caches the app shell + data.json on install so the app
+   keeps working even with no internet connection after the
+   first successful visit.
+   ========================================================= */
 
-  async function loadVocabData() {
-    try {
-      // ?t= timestamp se browser force-reload hoga
-      const response = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
-      const data = await response.json();
-      
-      state.allWords = data.words;
-      state.pyqWords = state.allWords.filter(w => w.isRepeated);
-      
-      if(dom.wordCountText) dom.wordCountText.textContent = `Total: ${state.allWords.length} words`;
-      if(dom.loadingScreen) dom.loadingScreen.classList.add('hidden');
-      
-      initNavigation();
-    } catch (err) {
-      console.error("Critical Load Error:", err);
-      if(dom.loadingScreen) dom.loadingScreen.classList.add('hidden');
-      if(dom.errorScreen) dom.errorScreen.classList.remove('hidden');
-    }
-  }
+const CACHE_NAME = 'vocabmaster-cache-v1';
 
-  function initNavigation() {
-    dom.navButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const target = btn.getAttribute('data-target');
-        Object.values(dom.screens).forEach(s => s && s.classList.add('hidden'));
-        const active = document.getElementById(target);
-        if(active) active.classList.remove('hidden');
-        dom.navButtons.forEach(b => b.classList.remove('nav-btn--active'));
-        btn.classList.add('nav-btn--active');
-      });
-    });
-  }
+// Everything needed for the app to run fully offline
+const ASSETS_TO_CACHE = [
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './data.json',
+  './manifest.json'
+];
 
-  document.addEventListener('DOMContentLoaded', () => {
-    dom = {
-      loadingScreen: document.getElementById('loadingScreen'),
-      errorScreen: document.getElementById('errorScreen'),
-      retryBtn: document.getElementById('retryBtn'),
-      wordCountText: document.getElementById('wordCountText'),
-      navButtons: document.querySelectorAll('.nav-btn'),
-      screens: {
-        pyqSection: document.getElementById('pyqSection'),
-        flashSection: document.getElementById('flashSection'),
-        quizSection: document.getElementById('quizSection')
-      }
-    };
-    
-    if(dom.retryBtn) dom.retryBtn.addEventListener('click', loadVocabData);
-    loadVocabData();
-  });
-})();
+// 1. On install: pre-cache the app shell
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS_TO_CACHE))
+  );
+  self.skipWaiting();
+});
+
+// 2. On activate: clean up old cache versions
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(
+        keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
+      )
+    )
+  );
+  self.clients.claim();
+});
+
+// 3. On fetch: cache-first, falling back to network, then re-caching the result.
+//    This means data.json updates (new words you add) are picked up next time
+//    you're online, while the app still works fully offline in between.
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request).then((cachedResponse) => {
+      const networkFetch = fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+          }
+          return networkResponse;
+        })
+        .catch(() => cachedResponse); // offline & not cached yet -> nothing we can do
+
+      // Serve cached version immediately if we have it, else wait on network
+      return cachedResponse || networkFetch;
+    })
+  );
+});
