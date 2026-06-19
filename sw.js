@@ -5,7 +5,7 @@
    first successful visit.
    ========================================================= */
 
-const CACHE_NAME = 'vocabmaster-cache-v1';
+const CACHE_NAME = 'vocabmaster-cache-v2';
 
 // Everything needed for the app to run fully offline
 const ASSETS_TO_CACHE = [
