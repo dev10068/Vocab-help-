@@ -3,28 +3,38 @@
   "name": "VocabMaster - SSC & Railway Vocab Prep",
   "short_name": "VocabMaster",
   "description": "High-performance vocabulary trainer for SSC and Railway exam aspirants.",
-  "start_url": "/Vocab-help-/index.html",
-  "scope": "/Vocab-help-/",
+  "start_url": "https://dev10068.github.io/Vocab-help-/",
+  "scope": "https://dev10068.github.io/Vocab-help-/",
   "display": "standalone",
   "background_color": "#FAFAFA",
   "theme_color": "#FF5722",
   "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
   "categories": ["education", "utilities"],
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/Vocab-help-/icon-192.png",
+      "src": "https://dev10068.github.io/Vocab-help-/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/Vocab-help-/icon-512.png",
+      "src": "https://dev10068.github.io/Vocab-help-/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    {
+      "src": "https://dev10068.github.io/Vocab-help-/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "VocabMaster Home Screen"
+    }
+  ],
   "shortcuts": []
 }
