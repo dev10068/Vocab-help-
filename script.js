@@ -1,13 +1,16 @@
 (() => {
   'use strict';
 
+  // 1. Data Store
   let state = { allWords: [], pyqWords: [] };
   let dom = {};
 
+  // 2. Data Loader
   async function loadVocabData() {
     try {
-      dom.loadingScreen.classList.remove('hidden');
-      // cache: 'no-store' ensures we never get a stale file
+      if(dom.loadingScreen) dom.loadingScreen.classList.remove('hidden');
+      
+      // cache: 'no-store' is critical here to avoid stale data from GitHub
       const response = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
       const data = await response.json();
       
@@ -15,7 +18,7 @@
       state.pyqWords = state.allWords.filter(w => w.isRepeated);
       
       if(dom.wordCountText) dom.wordCountText.textContent = `Total: ${state.allWords.length} words`;
-      dom.loadingScreen.classList.add('hidden');
+      if(dom.loadingScreen) dom.loadingScreen.classList.add('hidden');
       
       initNavigation();
     } catch (err) {
@@ -25,7 +28,10 @@
     }
   }
 
+  // 3. Navigation
   function initNavigation() {
+    if(!dom.navButtons) return;
+    
     dom.navButtons.forEach(btn => {
       btn.addEventListener('click', () => {
         const target = btn.getAttribute('data-target');
@@ -44,8 +50,9 @@
     });
   }
 
+  // 4. Initialization (The Safe Way)
   document.addEventListener('DOMContentLoaded', () => {
-    // 1. Initialize DOM object with all IDs from index.html
+    // DOM ab pura load ho chuka hai, ab elements dhoondho
     dom = {
       loadingScreen: document.getElementById('loadingScreen'),
       errorScreen: document.getElementById('errorScreen'),
@@ -59,7 +66,6 @@
       }
     };
 
-    // 2. Start App
     if(dom.retryBtn) dom.retryBtn.addEventListener('click', loadVocabData);
     loadVocabData();
   });
